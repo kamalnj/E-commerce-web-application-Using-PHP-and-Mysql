@@ -13,8 +13,8 @@
 </head>
 <body>
       <!-- navbar -->
-    <nav class="flex justify-between bg-slate-300 text-white w-screen h-16">
-      <div class="px-5 xl:px-12 py-6 flex w-full items-center">
+    <nav class=" justify-between bg-slate-300 text-white h-20 ">
+      <div class="px-5  xl:px-12 py-6 flex w-full items-center">
         <a class="text-3xl font-bold font-heading" href="#">
           <!-- <img class="h-9" src="logo.png" alt="logo"> -->
         <img class=" w-32" src="https://citysports.com/cdn/shop/files/City-Sports-Logo-RED-D50032-transp_180x@2x.png?v=1623667189" alt="">
@@ -46,6 +46,10 @@
 
         </div>
       </div>
+      
+    </nav>
+
+
 
 </body>
 </html>
