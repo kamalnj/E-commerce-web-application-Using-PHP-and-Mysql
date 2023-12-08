@@ -27,7 +27,7 @@
                 <a class="cursor-pointer">
                     <h3 class="text-2xl font-medium text-blue-500">
                         <img class="h-10 object-cover"
-                            src="https://www.moteur.ma/media/images/logo/logo_morocco.png" alt="Store Logo">
+                            src="https://www.footlocker.fr/built/320/images/FLEU/logo.svg" alt="Store Logo">
                     </h3>
                 </a>
             </div>
