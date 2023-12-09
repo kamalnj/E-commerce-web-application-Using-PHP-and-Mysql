@@ -11,11 +11,12 @@ if(isset($_POST['submit'])){
  move_uploaded_file($image_loc,$image_des);
  $pstock = $_POST['stock'];
  $pcategorie = $_POST['categorie'];
+ $ptype = $_POST['type'];
 
 
 
- mysqli_query($con,"INSERT INTO `tblproduct`( `name`, `description`, `prix`, `image`, `categorie`,`stock`)
-  VALUES ('$pname','$pdescription','$pprix','$image_des','$pcategorie','$pstock')");
+ mysqli_query($con,"INSERT INTO `tblproduct`( `name`, `description`, `prix`, `image`, `categorie`,`stock`,`type`)
+  VALUES ('$pname','$pdescription','$pprix','$image_des','$pcategorie','$pstock','$ptype')");
 }
 header("location:index.php");
 

@@ -17,7 +17,7 @@
       <div class="px-5 py-4  xl:px-12  flex w-full items-center">
         <a class="text-3xl font-bold font-heading" href="#">
           <!-- <img class="h-9" src="logo.png" alt="logo"> -->
-        <img class="  w-32" src="https://www.footlocker.fr/built/320/images/FLEU/logo.svg" alt="">
+        <img class="  w-32" src="https://planetsport.ma/img/planet-sport-logo-1657626409.jpg" alt="">
         </a>
         <!-- Nav Links -->
         <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">

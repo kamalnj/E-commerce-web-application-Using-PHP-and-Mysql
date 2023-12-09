@@ -40,14 +40,25 @@
       </div>
       
                       <!-- Catégorie du Produit -->
-                      <div class="mb-6">
+                      <div class="mb-6 ">
           <label for="categorie" class="block text-gray-700 font-bold mb-2">Catégorie du Produit</label>
           <select id="categorie" name="categorie" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500" required>
-            <option value="neuf">Neuf</option>
-            <option value="occasion">Occasion</option>
+            <option value="cadeau">cadeau</option>
+            <option value="homme">homme</option>
+            <option value="femme">femme</option>
+            <option value="enfant">enfant</option>
+          </select>
+                 <!-- type du Produit -->
+              <div class="mb-6 mt-6">
+          <label for="type" class="block text-gray-700 font-bold mb-2">Type du Produit</label>
+          <select id="type" name="type" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500" required>
+            <option value="Chaussures">Chaussures</option>
+            <option value="vetements">vetements</option>
+            <option value="accessoires">accessoires</option>
           </select>
 
-      <div class="mb-4">
+
+      <div class="mb-4 mt-5">
           <label for="image" class="block text-gray-700 font-bold mb-2">Image du Produit</label>
           <input type="file" id="image" name="image" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500" accept="image/*" required>
         </div>
