@@ -61,7 +61,7 @@
             </div>
           </div>
 
-          <a href="../user/cadeau.php" class="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700">ACHETER</a>
+          <a href="../user/cadeau.php" class="inline-block rounded-md border  bg-black px-8 py-3 text-center font-medium text-white  hover:bg-slate-50 hover:text-black">ACHETER</a>
         </div>
       </div>
     </div>
