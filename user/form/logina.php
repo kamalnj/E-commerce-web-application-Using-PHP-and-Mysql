@@ -25,18 +25,18 @@
                             </a>
                             <h2 class="mb-4 text-2xl font-bold text-gray-700 lg:mb-7 md:text-5xl dark:text-gray-300">
                                 Login your account</h2>
-                            <form action="" class="mt-4 lg:mt-7 ">
+                            <form action="logina1.php" method="POST" class="mt-4 lg:mt-7 ">
                                 <div class="">
                                     <input type="email"
                                         class="w-full px-4 py-3 mt-2 bg-white rounded-lg lg:py-5 dark:text-gray-300 dark:bg-gray-700 -gray-800"
-                                        name="email" placeholder="Enter your email">
+                                        name="email1" placeholder="Enter your email">
                                 </div>
                                 <div class="mt-4 lg:mt-7">
                                     <div>
                                         <div class="relative flex items-center">
                                             <input type="password"
                                                 class="w-full px-4 py-3 bg-white rounded-lg lg:py-5 dark:text-gray-300 dark:bg-gray-700 -gray-800 "
-                                                name="pwd" placeholder="Enter password">
+                                                name="password1" placeholder="Enter password">
                                         </div>
                                     </div>
                                 </div>
