@@ -23,43 +23,38 @@
                                         d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
                                 </svg>
                             </a>
-                            <h2 class="mb-4 text-xl font-bold text-gray-700 lg:mb-7 md:text-5xl dark:text-gray-300">
-                                Créer votre compte maintenant</h2>
-                            <form action="register1.php" method="POST" class="mt-4 lg:mt-7 ">
-                                
+                            <h2 class="mb-4 text-2xl font-bold text-gray-700 lg:mb-7 md:text-5xl dark:text-gray-300">
+                                Login your account</h2>
+                            <form action="" class="mt-4 lg:mt-7 ">
                                 <div class="">
-                                    <input type="text"
+                                    <input type="email"
                                         class="w-full px-4 py-3 mt-2 bg-white rounded-lg lg:py-5 dark:text-gray-300 dark:bg-gray-700 -gray-800"
-                                        name="name" placeholder="Enter votre nom">
-                                </div>
-                                <div class="mt-4 lg:mt-7">
-                                    <div>
-                                        <div class="relative flex items-center">
-                                            <input type="email"
-                                                class="w-full px-4 py-3 bg-white rounded-lg lg:py-5 dark:text-gray-300 dark:bg-gray-700 -gray-800 "
-                                                name="email" placeholder="Enter votre email">
-                                        </div>
-                                    </div>
+                                        name="email" placeholder="Enter your email">
                                 </div>
                                 <div class="mt-4 lg:mt-7">
                                     <div>
                                         <div class="relative flex items-center">
                                             <input type="password"
                                                 class="w-full px-4 py-3 bg-white rounded-lg lg:py-5 dark:text-gray-300 dark:bg-gray-700 -gray-800 "
-                                                name="pwd" placeholder="Enter votre mot de passe">
+                                                name="pwd" placeholder="Enter password">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="n mt-4 lg:mt-7">
-
+                                <div class="flex flex-wrap items-center justify-between mt-4 lg:mt-7">
+                                    <label for="" class="flex dark:text-gray-300">
+                                    </label>
                                     <a href=" #"
                                         class="mt-2 text-sm font-semibold text-black lg:mt-0 dark:text-blue-300 hover:underline">
-                                         </a>
+                                        Mot de passe oublié </a>
                                 </div>
                                 <button
                                     class="w-full py-3 text-lg font-bold text-gray-300 uppercase bg-black rounded-md lg:mt-7 mt-7 dark:text-gray-300 dark:bg-blue-700 px-11 md:mt-7 hover:bg-slate-600 hover:text-black dark:hover:bg-blue-900"
-                                    type="submit" name="submit" >Créer un compte</button>
-
+                                    type="submit" name="submit">LOGIN</button>
+                                <p class="mt-4 text-xs text-gray-700 lg:mt-7 dark:text-gray-400 lg:text-base">
+                                Voulez-vous inscrire?
+                                    <a href="register.php" class="font-semibold text-black hover:text-blue-600">
+                                        Créer un compte</a>
+                                </p>
                             </form>
                         </div>
                     </div>
