@@ -5,7 +5,8 @@
     <title>Document</title>
     <?php 
     include 'nav.php';
-    include'solde.php';?>
+    include'solde.php';
+?>
 </head>
 <body>
 <div class="text-center p-10">
@@ -20,13 +21,13 @@
     while($row = mysqli_fetch_array($requete)){
         echo"
         <div class='w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl'>
-        <a href='dtlproduct.php?id=$row[id]'>
+        <a href='dtlproduct.php?id=$row[id] '>
             <img src='../admin/product/$row[image]'
                     alt='Product' class='h-80 w-72  rounded-t-xl'/>
             <div class='px-4 py-3 w-72'>
                 <p class='text-lg font-bold text-black truncate block capitalize'>$row[name]</p>
                 <div class='flex items-center'>
-                    <p class='text-lg font-semibold text-black cursor-auto my-3'>$row[prix]</p>
+                    <p class='text-lg font-semibold text-black cursor-auto my-3'>$row[prix] DH</p>
                 </div>
             </div>
         </a>
