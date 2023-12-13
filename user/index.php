@@ -5,7 +5,8 @@
     <title>Document</title>
             <?php 
     include'nav.php';
-    include'solde.php';   
+    include'solde.php';  
+     
        ?>
 </head>
 <body class=" bg-slate-50">
@@ -124,6 +125,10 @@
 
 
 
+
+
+
     
 </body>
+
 </html>

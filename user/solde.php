@@ -5,12 +5,12 @@
     <title>Document</title>
 </head>
 <body>
-    <div class=" inset-x-0 top-0 z-50">
-    <div class=" bg-stone-600">
-        <div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
+    <div class="  inset-x-0 top-0 z-50">
+    <div class=" bg-stone-600 ">
+        <div class="mx-auto max-w-7xl py-3 px-9 sm:px-6 lg:px-8">
             <div class="flex flex-col items-center justify-between lg:flex-row lg:justify-center">
                 <div class="flex flex-1 items-center lg:mr-3 lg:flex-none">
-                    <p class="ml-3 text-center font-medium text-white">
+                    <p class="ml-3 text-center font-medium  text-white">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                             stroke="currentColor" aria-hidden="true" class="mr-2 hidden h-6 w-6 lg:inline">
                             <path stroke-linecap="round" stroke-linejoin="round"

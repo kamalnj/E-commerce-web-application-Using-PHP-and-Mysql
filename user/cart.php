@@ -13,7 +13,7 @@
                     echo"
                     <script>
                     alert('Produit déjà ajouter')
-                    window.location.href= 'cadeau.php';
+                    window.location.href= 'index.php';
                     </script>
                     ";
                     exit();
