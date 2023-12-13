@@ -33,7 +33,7 @@ echo "
                     <form action='cart.php' method='POST' >
                         <span class='text-lg font-medium text-rose-500 dark:text-rose-200'>New</span>
                         <input type='text' name='namep' class='max-w-xl mt-2 mb-6 text-2xl font-bold dark:text-gray-400 md:text-4xl'
-                            value='$row[name]'>
+                            value='$row[name]'
                         <p class='max-w-md mb-8 text-gray-700 dark:text-gray-400'>
                           $row[description]
                         </p>
@@ -45,11 +45,11 @@ echo "
                     <div class='flex items-center mb-8'>
                     <span class='mr-3'>Size</span>
                     <div class='relative'>
-                      <select class='rounded border appearance-none border-gray-400 py-2 focus:outline-none focus:border-red-500 text-base pl-3 pr-10'>
-                        <option>SM</option>
-                        <option>M</option>
-                        <option>L</option>
-                        <option>XL</option>
+                      <select name='sizep' class='rounded border appearance-none border-gray-400 py-2 focus:outline-none focus:border-red-500 text-base pl-3 pr-10'>
+                        <option value='SM'>SM</option>
+                        <option value='M'>M</option>
+                        <option value='L'>L</option>
+                        <option value='XL'>XL</option>
                       </select>
                             </div>
                         </div>
