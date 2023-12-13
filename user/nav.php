@@ -47,7 +47,7 @@
         <ul class='flex max-lg:block max-lg:w-full lg:space-x-10 '>
 
           <li class='group max-lg:border-b max-lg:py-2 relative'>
-            <a href='javascript:void(0)'
+            <a href='homme.php'
               class='hover:text-yellow-300 font-bold text-white text-[15px] lg:hover:fill-yellow-300 block'>Homme
             </a>
             <ul
@@ -62,7 +62,7 @@
             </ul>
           </li>
           <li class='group max-lg:border-b max-lg:py-2 relative'>
-            <a href='#'
+            <a href='femme.php'
               class='hover:text-yellow-300 font-bold text-white text-[15px] lg:hover:fill-yellow-300 block'>Femme
             </a>
             <ul
@@ -76,7 +76,7 @@
             </ul>
           </li>
           <li class='group max-lg:border-b max-lg:py-2 relative'>
-            <a href='#'
+            <a href='enfant.php'
               class='hover:text-yellow-300 font-bold text-white text-[15px] lg:hover:fill-yellow-300 block'>Enfant
             </a>
             <ul

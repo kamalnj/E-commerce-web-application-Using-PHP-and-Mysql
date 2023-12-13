@@ -84,7 +84,7 @@
             </div>
           </div>
           <h3 class="mt-6 text-sm text-gray-500">
-            <a href="#">
+            <a href="homme.php">
               <span class="absolute inset-0"></span>
             </a>
           </h3>
@@ -97,7 +97,7 @@
             </div>
           </div>
           <h3 class="mt-6 text-sm text-gray-500">
-            <a href="#">
+            <a href="femme.php">
               <span class="absolute inset-0"></span>
             </a>
           </h3>
@@ -110,7 +110,7 @@
             </div>
           </div>
           <h3 class="mt-6 text-sm text-gray-500">
-            <a href="#">
+            <a href="enfant.php">
               <span class="absolute inset-0"></span>
             </a>
           </h3>
