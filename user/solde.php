@@ -22,7 +22,7 @@
                 </div>
                 <div class="mt-2 w-full flex-shrink-0 lg:mt-0 lg:w-auto"><a
                         class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-2 text-sm font-medium text-stone-600 shadow-sm hover:bg-teal-50"
-                        href="#pricing">Acheter Maintenant
+                        href="nouveaute.php">Acheter Maintenant
                     </a>
                 </div>
             </div>

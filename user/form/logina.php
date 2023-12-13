@@ -24,7 +24,7 @@
                                 </svg>
                             </a>
                             <h2 class="mb-4 text-2xl font-bold text-gray-700 lg:mb-7 md:text-5xl dark:text-gray-300">
-                                Login your account</h2>
+                                Connectez-vous</h2>
                             <form action="logina1.php" method="POST" class="mt-4 lg:mt-7 ">
                                 <div class="">
                                     <input type="email"
@@ -49,7 +49,7 @@
                                 </div>
                                 <button
                                     class="w-full py-3 text-lg font-bold text-gray-300 uppercase bg-black rounded-md lg:mt-7 mt-7 dark:text-gray-300 dark:bg-blue-700 px-11 md:mt-7 hover:bg-slate-600 hover:text-black dark:hover:bg-blue-900"
-                                    type="submit" name="submit">LOGIN</button>
+                                    type="submit" name="submit">SE CONNECTER</button>
                                 <p class="mt-4 text-xs text-gray-700 lg:mt-7 dark:text-gray-400 lg:text-base">
                                 Voulez-vous inscrire?
                                     <a href="register.php" class="font-semibold text-black hover:text-blue-600">

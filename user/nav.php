@@ -14,7 +14,7 @@
 <body>
 <header class=' bg-black px-6 h-15  '>
       <div class='flex h-15 items-center justify-between  '>
-        <a href="javascript:void(0)"><img
+        <a href="index.php"><img
           src="https://logos-world.net/wp-content/uploads/2022/04/Foot-Locker-Logo.png" alt="logo" class='w-36  ' />
         </a>
         <div class='flex items-center max-lg:ml-auto lg:order-1'>
@@ -52,11 +52,11 @@
             </a>
             <ul
               class='absolute hidden group-hover:block shadow-lg max-lg:border max-lg:border-gray-500 bg-black px-6 pb-4 pt-6 space-y-3 lg:top-5 max-lg:top-8 lg:-left-6 min-w-[250px] z-50'>
-              <li class='border-b py-2'><a href='javascript:void(0)'
+              <li class='border-b py-2'><a href='hchaussures.php'
                 class='hover:text-yellow-300 font-bold text-white text-[15px] block'>Chaussures</a></li>
-              <li class='border-b py-2'><a href='javascript:void(0)'
+              <li class='border-b py-2'><a href='hvetement.php'
                 class='hover:text-yellow-300 font-bold text-white text-[15px] block'>Vêtements</a></li>
-              <li class='border-b py-2'><a href='javascript:void(0)'
+              <li class='border-b py-2'><a href='haccessoires.php'
                 class='hover:text-yellow-300 font-bold text-white text-[15px] block'>Accessoires et équipement</a></li>
 
             </ul>
@@ -67,11 +67,11 @@
             </a>
             <ul
               class='absolute hidden group-hover:block shadow-lg max-lg:border max-lg:border-gray-500 bg-black px-6 pb-4 pt-6 space-y-3 lg:top-5 max-lg:top-8 lg:-left-6 min-w-[250px] z-50'>
-              <li class='border-b py-2'><a href='javascript:void(0)'
+              <li class='border-b py-2'><a href='fchaussures.php'
                 class='hover:text-yellow-300 font-bold text-white text-[15px] block'>Chaussures</a></li>
-              <li class='border-b py-2'><a href='javascript:void(0)'
+              <li class='border-b py-2'><a href='fvetement.php'
                 class='hover:text-yellow-300 font-bold text-white text-[15px] block'>Vêtements</a></li>
-              <li class='border-b py-2'><a href='javascript:void(0)'
+              <li class='border-b py-2'><a href='faccessoires.php'
                 class='hover:text-yellow-300 font-bold text-white text-[15px] block'>Accessoires et équipement</a></li>
             </ul>
           </li>
@@ -81,15 +81,15 @@
             </a>
             <ul
               class='absolute hidden group-hover:block shadow-lg max-lg:border max-lg:border-gray-500 bg-black px-6 pb-4 pt-6 space-y-3 lg:top-5 max-lg:top-8 lg:-left-6 min-w-[250px] z-50'>
-              <li class='border-b py-2'><a href='javascript:void(0)'
+              <li class='border-b py-2'><a href='echaussures.php'
                 class='hover:text-yellow-300 font-bold text-white text-[15px] block'>Chaussures</a></li>
-              <li class='border-b py-2'><a href='javascript:void(0)'
+              <li class='border-b py-2'><a href='evetements.php'
                 class='hover:text-yellow-300 font-bold text-white text-[15px] block'>Vêtements</a></li>
-              <li class='border-b py-2'><a href='javascript:void(0)'
+              <li class='border-b py-2'><a href='eaccessoires.php'
                 class='hover:text-yellow-300 font-bold text-white text-[15px] block'>Accessoires et équipement</a></li>
             </ul>
           </li>
-          <li class='max-lg:border-b max-lg:py-2'><a href='javascript:void(0)'
+          <li class='max-lg:border-b max-lg:py-2'><a href='nouveaute.php'
             class='hover:text-yellow-300 font-bold text-white text-[15px] block'>Nouveautés</a></li>
 
       </div>
