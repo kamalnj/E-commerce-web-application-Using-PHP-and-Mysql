@@ -1,19 +1,22 @@
 
             <?php
             session_start(); 
+                        if (!isset($_SESSION['cart'])) {
+                $_SESSION['cart'] = array();
+            }
             if (isset($_POST['submit'])) {
 
             $product_name = $_POST['namep'];
             $quantity = $_POST['quantity'];
             $prix = $_POST['prix'];
             $taillep = $_POST['sizep']   ;
-            
+            if (isset($_SESSION['cart'])) {
                 $check_product = array_column($_SESSION['cart'],'namep');
                 if (in_array($product_name,$check_product)) {
                     echo"
                     <script>
                     alert('Produit déjà ajouter')
-                    window.location.href= 'index.php';
+                    window.location.href= 'cadeau.php';
                     </script>
                     ";
                     exit();
@@ -25,7 +28,7 @@
                     'quantityp' => $quantity,
                     'prixp' => $prix
                 );   
-                header("location:viewcart.php")  ;
+                header("location:viewcart.php")  ;}
             exit();}
             
             }

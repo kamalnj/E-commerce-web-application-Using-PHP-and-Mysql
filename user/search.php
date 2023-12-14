@@ -9,15 +9,26 @@
 ?>
 </head>
 <body>
-<div class="text-center p-10">
-    <h1 class="font-bold text-black text-4xl mb-4">Nouveautés</h1>
-</div>
+    <?php 
+     include 'confi.php';
+     if ( isset($_POST['submit'])){
+ 
+         $search = $_POST['search'];
+        echo"<div class='text-center p-10'>
+    <h1 class='font-bold text-black text-4xl mb-4'> Search for $search </h1>
+</div>"; }
+    ?>
+
 
 <section id="Projects"
     class="w-fit mx-auto grid grid-cols-3 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
     <?php 
     include 'confi.php';
-    $requete = mysqli_query($con,"SELECT * FROM `tblproduct` where categorie ='homme' or categorie ='femme' or categorie ='enfant' ");
+    if ( isset($_POST['submit'])){
+
+        $search = $_POST['search'];
+    
+    $requete = mysqli_query($con,"SELECT * FROM `tblproduct` WHERE name LIKE '%$search%'");
     while($row = mysqli_fetch_array($requete)){
         echo"
         <div class='w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl'>
@@ -31,7 +42,7 @@
                 </div>
             </div>
         </a>
-    </div>";}?>
+    </div>";}}?>
 </section>
 
 
@@ -39,7 +50,5 @@
 
     
 
-
 </body>
-
 </html>;

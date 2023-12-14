@@ -10,6 +10,9 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
 <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+<?php 
+session_start();
+?>
 </head>
 <body>
 <header class=' bg-black px-6 h-15  '>
@@ -18,8 +21,8 @@
           src="https://logos-world.net/wp-content/uploads/2022/04/Foot-Locker-Logo.png" alt="logo" class='w-36  ' />
         </a>
         <div class='flex items-center max-lg:ml-auto lg:order-1'>
-        <form action="search.php" method="POST" >
         <div class=" px-3 relative mx-auto text-gray-600">
+        <form action="search.php" method="POST" >
         <input class="border-2 border-gray-300 bg-white h-9 px-5  rounded-xl text-sm focus:outline-none"
           type="search" name="search" placeholder="Search">
         <button type="submit" name="submit" class="absolute right-0 top-0 py-3 px-5">
@@ -37,14 +40,25 @@
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
 </svg>
-           </a>
-           <a href="form/logina.php" class="flex items-center mr-4 dark:text-gray-400 " id="compte" >
-           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
-  <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clip-rule="evenodd" />
+           <?php 
+           if (isset($_SESSION['user'])) {
+           echo"       <a href='form/logout.php'>
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+  <path stroke-linecap='round' stroke-linejoin='round' d='M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9' />
+</svg>
+</a>";}else{
+  echo "           </a>
+  <a href='form/logina.php' class='flex items-center mr-4 dark:text-gray-400 ' id='compte' >
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white' class='w-6 h-6'>
+<path fill-rule='evenodd' d='M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z' clip-rule='evenodd' />
 </svg>
 
 
-           </a>
+  </a>";
+}
+     
+           ?>
+         
         </div>
         <ul class='flex max-lg:block max-lg:w-full lg:space-x-10 '>
 
@@ -96,6 +110,7 @@
 
       </div>
     </header>
+    
 
 
 

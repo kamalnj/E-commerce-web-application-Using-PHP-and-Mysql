@@ -84,7 +84,7 @@
                 <h3 class="text-white text-2xl font-bold">HOMMES</h3>
             </div>
           </div>
-          <h3 class="mt-6 text-sm text-gray-500">
+          <h3 class="mt-6 text-sm text-white">
             <a href="homme.php">
               <span class="absolute inset-0"></span>
             </a>
@@ -97,7 +97,7 @@
                 <h3 class="text-white text-2xl font-bold">FEMMES</h3>
             </div>
           </div>
-          <h3 class="mt-6 text-sm text-gray-500">
+          <h3 class="mt-6 text-sm text-white">
             <a href="femme.php">
               <span class="absolute inset-0"></span>
             </a>
@@ -110,7 +110,7 @@
                 <h3 class="text-white text-2xl font-bold">ENFANTS</h3>
             </div>
           </div>
-          <h3 class="mt-6 text-sm text-gray-500">
+          <h3 class="mt-6 text-sm text-white">
             <a href="enfant.php">
               <span class="absolute inset-0"></span>
             </a>
@@ -120,6 +120,33 @@
     </div>
   </div>
 </div>
+
+
+<footer class="bg-black">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between px-8">
+            <a href="index.php" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Foot Locker</span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="homme.php" class="hover:underline me-4 md:me-6">Homme</a>
+                </li>
+                <li>
+                    <a href="femme.php" class="hover:underline me-4 md:me-6">Femme</a>
+                </li>
+                <li>
+                    <a href="enfant.php" class="hover:underline me-4 md:me-6">Enfant</a>
+                </li>
+
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-white sm:text-center dark:text-gray-400">© 2023 <a href="index.php" class="hover:underline">Foot Locker</a>. All Rights Reserved.</span>
+    </div>
+</footer>
+
+
 
 
 

@@ -4,7 +4,6 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
           <title>Document</title> 
           <?php 
-            session_start();   
                 include'nav.php'; include'solde.php';
            ?>
          </head> 
@@ -90,5 +89,4 @@
                     </div>
              </div></body>
              <?php
-include'footer.php';
 ?>
