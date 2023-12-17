@@ -1,45 +1,38 @@
 
             <?php
-            session_start(); 
-                        if (!isset($_SESSION['cart'])) {
-                $_SESSION['cart'] = array();
-            }
-            if (isset($_POST['submit'])) {
+            include("confi.php");
+            session_start();
+            if (isset($_POST['add_cart'])) {
+            $user_id = (isset($_SESSION['user']));
 
             $product_name = $_POST['namep'];
             $quantity = $_POST['quantity'];
             $prix = $_POST['prix'];
             $taillep = $_POST['sizep']   ;
-            if (isset($_SESSION['cart'])) {
-                $check_product = array_column($_SESSION['cart'],'namep');
-                if (in_array($product_name,$check_product)) {
-                    echo"
+            $select_cart = mysqli_query($con,"SELECT * FROM `cart` WHERE name='$product_name' AND user_id='$user_id' ");
+            if(mysqli_num_rows($select_cart)>0) {
+            echo"
                     <script>
                     alert('Produit déjà ajouter')
-                    window.location.href= 'cadeau.php';
+                    window.location.href= 'index.php';
                     </script>
                     ";
-                    exit();
-                }else{
-
-                $_SESSION['cart'][] = array(
-                    'namep' => $product_name,
-                    'sizep' => $taillep,
-                    'quantityp' => $quantity,
-                    'prixp' => $prix
-                );   
-                header("location:viewcart.php")  ;}
-            exit();}
             
+            }else{
+        mysqli_query($con,"INSERT INTO `cart`(user_id,name,price,quantity,size) VALUES('$user_id','$product_name','$prix','$quantity','$taillep')  ");
+        echo"
+        <script>
+        alert('Produit ajouter')
+        window.location.href= 'viewcart.php';
+        </script>
+        ";
             }
-        if (isset($_POST['remove'])) {
-            foreach ($_SESSION['cart'] as $key => $value) {
-                if ((isset($value['namep']) ? $value['namep'] : '') === $_POST['pn']) {
-                  unset($_SESSION['cart'][$key]);
-                  $_SESSION['cart']=array_values($_SESSION['cart']);
-                  header('location:viewcart.php') ;
-        }
-    }
-}      
+
+            }
+            if(isset($_POST['remove'])){
+                $remove_id = $_POST['pn'];
+                mysqli_query($con, "DELETE FROM `cart` WHERE name = '$remove_id'");
+                header('location:viewcart.php');
+             }
             ?>
 

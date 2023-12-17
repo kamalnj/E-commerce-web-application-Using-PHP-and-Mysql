@@ -66,7 +66,7 @@ echo "
                             <div class='w-full px-4 mb-4 lg:w-1/2 lg:mb-0'>
                             <input type='hidden' name='product_id' value='$row[id]'>
                             <input type='hidden' name='prix' value='$row[prix]'>
-                            <button type='submit' name='submit' class='flex items-center justify-center w-full p-4 text-white bg-black border border-white rounded-md dark:text-gray-200 dark:border-blue-600 hover:bg-stone-700 hover:border-white hover:text-gray-100 dark:bg-blue-600 dark:hover:bg-blue-700 dark:hover:border-blue-700 dark:hover:text-gray-300'>
+                            <button type='submit' name='add_cart' class='flex items-center justify-center w-full p-4 text-white bg-black border border-white rounded-md dark:text-gray-200 dark:border-blue-600 hover:bg-stone-700 hover:border-white hover:text-gray-100 dark:bg-blue-600 dark:hover:bg-blue-700 dark:hover:border-blue-700 dark:hover:text-gray-300'>
                                     Add to Cart
                                 </button>
                               </form>  
@@ -130,7 +130,7 @@ echo "
                             <div class='w-full px-4 mb-4 lg:w-1/2 lg:mb-0'>
                             <input type='hidden' name='product_id' value='$row[id]'>
                             <input type='hidden' name='prix' value='$row[prix]'>
-                            <button type='submit' name='submit' class='flex items-center justify-center w-full p-4 text-white bg-black border border-white rounded-md dark:text-gray-200 dark:border-blue-600 hover:bg-stone-700 hover:border-white hover:text-gray-100 dark:bg-blue-600 dark:hover:bg-blue-700 dark:hover:border-blue-700 dark:hover:text-gray-300'>
+                            <button type='submit' name='add_cart' class='flex items-center justify-center w-full p-4 text-white bg-black border border-white rounded-md dark:text-gray-200 dark:border-blue-600 hover:bg-stone-700 hover:border-white hover:text-gray-100 dark:bg-blue-600 dark:hover:bg-blue-700 dark:hover:border-blue-700 dark:hover:text-gray-300'>
                                     Add to Cart
                                 </button>
                               </form>  
@@ -183,7 +183,7 @@ echo "
                             <div class='w-full px-4 mb-4 lg:w-1/2 lg:mb-0'>
                             <input type='hidden' name='product_id' value='$row[id]'>
                             <input type='hidden' name='prix' value='$row[prix]'>
-                            <button type='submit' name='submit' class='flex items-center justify-center w-full p-4 text-white bg-black border border-white rounded-md dark:text-gray-200 dark:border-blue-600 hover:bg-stone-700 hover:border-white hover:text-gray-100 dark:bg-blue-600 dark:hover:bg-blue-700 dark:hover:border-blue-700 dark:hover:text-gray-300'>
+                            <button type='submit' name='add_cart' class='flex items-center justify-center w-full p-4 text-white bg-black border border-white rounded-md dark:text-gray-200 dark:border-blue-600 hover:bg-stone-700 hover:border-white hover:text-gray-100 dark:bg-blue-600 dark:hover:bg-blue-700 dark:hover:border-blue-700 dark:hover:text-gray-300'>
                                     Add to Cart
                                 </button>
                               </form>  

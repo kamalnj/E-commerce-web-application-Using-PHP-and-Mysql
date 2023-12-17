@@ -47,6 +47,8 @@
             <option value="homme">homme</option>
             <option value="femme">femme</option>
             <option value="enfant">enfant</option>
+            <option value="Collection">Collection</option>
+
           </select>
                  <!-- type du Produit -->
               <div class="mb-6 mt-6">

@@ -17,7 +17,14 @@ if(isset($_POST['submit'])){
 
  mysqli_query($con,"INSERT INTO `tblproduct`( `name`, `description`, `prix`, `image`, `categorie`,`stock`,`type`)
   VALUES ('$pname','$pdescription','$pprix','$image_des','$pcategorie','$pstock','$ptype')");
+
 }
+echo"
+<script>
+alert'produit ajoutée';
+</script>
+";
+
 header("location:index.php");
 
 

@@ -15,7 +15,10 @@
     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
         <h2 class="text-5xl font-bold">CAFE JOYEUX</h2>
         <h2 class="text-3xl font-bold">NOUVELLE COLLECTION</h2>
-        <button class=" bg-transparent border-2 hover:bg-gray-200 hover:text-black text-white px-4 py-2 mt-4">ACHETER MAINTENANT</button>
+        <a href="collection.php">
+        <button class="  bg-transparent border-2 hover:bg-gray-200 hover:text-black text-white px-4 py-2 mt-4">ACHETER MAINTENANT</button>
+
+        </a>
     </div>
 </div>
 <div class="relative overflow-hidden bg-white">

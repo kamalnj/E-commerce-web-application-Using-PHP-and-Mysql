@@ -49,6 +49,7 @@
         <td><img class='py-4' src='$do[image]' height='90px' width='100px' ></td>
         <td class=' px-7'>$do[categorie]</td>
         <td class=' px-7'>$do[stock]</td>
+        <td class='px-7'><a href='delete.php? ID=$do[id]'><button type='submit' name='remove' class='bg-red-500  font-medium text-base hover:bg-red-700 text-white  py-2 px-4 rounded' > Supprimer</button></a></td>
 
 
 
